@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Jomhuria&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;695&family=Cairo:wght@400;700&family=Jomhuria&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;695&family=Cairo:wght@400;700&family=Caveat:wght@500&family=Jomhuria&family=Lexend+Deca&display=swap');
+body {
+   background-color:  hsl(0, 0%, 95%);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;    
+    padding: 0;
+    max-width:1100px ;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.box {  
+    padding: 40px;
+}   
+
+div p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 27px;
+}
+
+div h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+div button {
+    background-color: hsl(0, 0%, 95%);
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: white;
+    margin-top: 30px;
+    font-size: 11px;
+    transition: 0.5s;
+}
+
+div button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+div img {
+    background-color: transparent;
+    width:"50px";
+    padding-bottom: 10px;
+}
+
+.Sedans {
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.Sedans button{
+    color:  hsl(31, 77%, 52%);
+}
+
+.SUVs button{
+    color: hsl(184, 100%, 22%);
+}
+
+.Luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .attribution {
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+    }
+}
+
+ 
+.attribution {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: rgb(176, 26, 181);
+}
+.attribution a:hover {
+    background-color:  rgb(176, 26, 181); ;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+}
