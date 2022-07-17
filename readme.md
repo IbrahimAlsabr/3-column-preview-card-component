@@ -35,6 +35,10 @@ Users should be able to:
 #### Small Screen
 ![Desktop Screen](https://github.com/IbrahimAlsabr/3-column-preview-card-component/blob/68f954c0114cb4dd3cc7c84b775c64d66013c1e9/design/mobile-design.jpg?raw=true "Desktop Screen")
 
+### Links
+
+- Source Code URL: [https://github.com/IbrahimAlsabr/3-column-preview-card-component](https://your-solution-url.com)
+- Live Site URL: [https://ibrahimalsabr.github.io/3-column-preview-card-component/](https://your-live-site-url.com)
 
 ## My process
 
