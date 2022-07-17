@@ -58,6 +58,7 @@ div button {
 div button:hover {
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 div img {
