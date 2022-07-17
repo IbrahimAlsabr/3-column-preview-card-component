@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Source Code URL: [Here]([https://your-solution-url.com](https://github.com/IbrahimAlsabr/3-column-preview-card-component)
-- Live Site URL: [Here]([https://your-live-site-url.com](https://ibrahimalsabr.github.io/3-column-preview-card-component/)
+- Source Code URL: [here]([https://ibrahimalsabr.github.io/3-column-preview-card-component/](https://github.com/IbrahimAlsabr/3-column-preview-card-component))
+- Live Site URL: [here](https://ibrahimalsabr.github.io/3-column-preview-card-component/)
 
 ## My process
 
